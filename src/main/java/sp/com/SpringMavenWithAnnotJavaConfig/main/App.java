@@ -14,6 +14,8 @@ public class App
 {
     public static void main( String[] args )
     {
+
+        System.out.println("App");
     	
     	ApplicationContext context=new AnnotationConfigApplicationContext(JavaConfig.class);
     	Student std=(Student) context.getBean("stdObj");
